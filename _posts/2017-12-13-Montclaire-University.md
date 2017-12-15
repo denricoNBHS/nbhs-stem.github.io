@@ -3,6 +3,9 @@ layout: post
 title: "Montclaire Fieldtrip"
 date: 2017-12-13
 ---
+![assests](../assets/Montclair.jpg)
+
+
 Montclaire University. What can I say? It was fun! It was our very first S.T.E.M. trip, so we were pleased. We got to see some really cool and fun stuff. 
 
 
@@ -13,6 +16,3 @@ They also had some really cool and interesting technollogy. They had really adva
 
 
 All in all, we were all glad to go on a field trip and I believe I' m speaking for all of us when i say that it was a super fun and unieque experience.
-
-
-![assests](../assets/Montclair.jpg)
