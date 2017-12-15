@@ -15,4 +15,4 @@ They also had some really cool and interesting technollogy. They had really adva
 All in all, we were all glad to go on a field trip and I believe I' m speaking for all of us when i say that it was a super fun and unieque experience.
 
 
-![smiley](../assests/montclaire.jpg)! And here
+![montclaire](../assests/montclaire.jpg)!
