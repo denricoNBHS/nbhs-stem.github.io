@@ -15,6 +15,4 @@ They also had some really cool and interesting technollogy. They had really adva
 All in all, we were all glad to go on a field trip and I believe I' m speaking for all of us when i say that it was a super fun and unieque experience.
 
 
-Here comes a ![smiley](../images/smiley.png)! And here
-![too](../images/other.png 'Title text'). Or ![here].
-With empty alt text ![](see.jpg)
+![smiley](../assests/montclaire.jpg)! And here
