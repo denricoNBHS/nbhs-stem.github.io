@@ -1,1 +1,32 @@
-<!-- placeholder -->
+
+*{
+ text-align:center;
+ font-family: 'Merriweather', serif;
+}
+p{
+  font-size:20px;
+}
+#summary{
+  text-shadow: 2.5px 2.5px 5px red;
+}
+#reminders{
+  text-shadow: 2.5px 2.5px 5px yellow;
+}
+#nav_bar{
+  display:flex;
+  background:linear-gradient(red,yellow);
+  text-align: center;
+  border: 2px solid black;
+}
+#nav_bar li{
+  display:flex;
+  font-size: 20px;
+  display: inline;
+  margin: 90px;
+}
+#list{
+  display:flex;
+  background: linear-gradient(red,yellow);
+  border: 5px solid black;
+}
+
