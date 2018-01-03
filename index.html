@@ -17,7 +17,8 @@ layout: default
 <p> And should have at least 3 new recent updates every time we decide to do so </p> 
 </div> 
 
-<div id="preview">  
+<div id="preview">
+	<h1>Read our 3 latest blog posts below</h1>
 	{% for post in site.posts limit:3 %}	
 		<h2>{{post.title}}</h2>
 		<h2>{{post.date}}</h2>
