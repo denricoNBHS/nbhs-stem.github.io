@@ -23,6 +23,11 @@ layout: default
 		<h2>{{post.title}}</h2>
 		<h2>{{post.date}}</h2>
 		<h2>{{post.excerpt}}</h2>
-		<h2>Wanna read more of these aweome blog posts? Click <a href="{{post.url}}">Here</a></h2>
+		<h2>Wanna read the rest of these awesome blog posts? Click <a href="{{post.url}}">Here</a></h2>
 	{%endfor%}
+	
+	<h2>Past Blog Posts</h2>
+	{% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
 </div>
