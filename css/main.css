@@ -13,7 +13,7 @@ p{
   display:flex;
   font-size: 20px;
   text-decoration: none;
-  margin: 10px;
+  margin: 50px;
 }
 ul{
   text-decoration: none;
@@ -25,6 +25,7 @@ body{
 }
 ol{
  margin:60px;
+ text-decoration:none
 }
 
   
