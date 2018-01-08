@@ -1,4 +1,4 @@
-*{
+{
  text-align:center;
  font-family: 'Merriweather', serif;
 }
@@ -20,13 +20,22 @@ ul{
   display:flex;
 }
 body{
-   background: linear-gradient(#f2fcfe
-,#1c92d2);
+   background-color:#D41F1F;
 }
 ol{
- margin:60px;
- display:flex;
- text-decoration:none
+  margin:60px;
+  text-decoration: none;
 }
 
-  
+#summary p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#reminders p{
+  padding-left:5%;
+  padding-right:5%;
+}
+li{
+  display:flex;
+  margin:60px
+}
