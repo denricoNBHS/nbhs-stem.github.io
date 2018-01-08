@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Montclaire Fieldtrip"
+title: "Montclair Field Trip"
 date: 2017-12-13
 ---
 ![assests](../assets/Montclair.jpg)
