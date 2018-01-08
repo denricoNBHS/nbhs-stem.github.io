@@ -21,3 +21,18 @@ layout: default
 “BOLD Summer Camp - July 16-20, 2018: Applications will be available December 2017 and will be accepted until March 31 at www.cinj.org/bold High school-aged students are invited to apply for the BOLD Camp (BioCONECT Oncology Leadership Development) - a unique summer learning opportunity for students who have an interest in learning about cellular biology and genetics of cancer, as well as the diverse careers connected to the field.” </p> 
     <p> Mrs.Stern has announced the NJIT Pre-College Summer Program Sessions. Please meet with her to get notified on the two classes that the the sessions are giving to us. Deadline is the twentieth of January. </p>
 </div> 
+
+<div id="preview">
+	<h1>Read our 3 latest blog posts below</h1>
+	{% for post in site.posts limit:3 %}	
+		<h2>{{post.title}}</h2>
+		<h2>{{post.date}}</h2>
+		<h2>{{post.excerpt}}</h2>
+		<h2>Wanna read the rest of these awesome blog posts? Click <a href="{{post.url}}">Here</a></h2>
+	{%endfor%}
+	
+	<h2>Past Blog Posts</h2>
+	{% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+</div>
