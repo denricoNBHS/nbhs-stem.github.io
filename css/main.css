@@ -1,4 +1,4 @@
-{
+*{
  text-align:center;
  font-family: 'Merriweather', serif;
 }
@@ -8,6 +8,8 @@ p{
 #nav_bar{
   display:flex;
   text-align: center;
+    background: linear-gradient(#36d1dc,#5b86e5
+);
 }
 #nav_bar li{
   display:flex;
@@ -18,9 +20,12 @@ p{
 ul{
   text-decoration: none;
   display:flex;
+  background: linear-gradient(#36d1dc,#5b86e5
+);
 }
 body{
-   background-color:#D41F1F;
+  background: linear-gradient(#f2fcfe
+,#1c92d2)
 }
 ol{
   margin:60px;
@@ -37,5 +42,5 @@ ol{
 }
 li{
   display:flex;
-  margin:60px
+  margin:60px; 
 }
