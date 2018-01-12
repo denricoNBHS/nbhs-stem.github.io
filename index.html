@@ -18,7 +18,21 @@ layout: default
 <h1> REMINDERS OR UPDATES </h1> 
 <p> MRS.STERN’S ANNOUNCEMENT: <br> 
 “BOLD Summer Camp - July 16-20, 2018: Applications will be available December 2017 and will be accepted until March 31 at www.cinj.org/bold High school-aged students are invited to apply for the BOLD Camp (BioCONECT Oncology Leadership Development) - a unique summer learning opportunity for students who have an interest in learning about cellular biology and genetics of cancer, as well as the diverse careers connected to the field.” </p>
-    
     <p> The Freshmen are reminded that we are going to Hackensack Hospital on <i> January 25, 2018 </i> </p> 
     <p> Any concerns should be discussed with Mrs.Stern, Mr.Keshinian, and/or Mrs.Garcia. </p>
-    
+<div id="preview">
+	<h1>Read our 3 latest blog posts below</h1>
+	{% for post in site.posts limit:3 %}	
+		<h2>{{post.title}}</h2>
+		<h3>{{post.date}}</h3>
+		<p>{{post.excerpt}}</p>
+		<h4>Want read the rest of this awesome blog post? Click <a href="{{post.url}}">Here</a></h4>
+	{%endfor%}
+	
+	<h1>Past Blog Posts</h1>
+	{% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% endfor %}
+</div>
+</div>
+

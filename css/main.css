@@ -1,0 +1,46 @@
+*{
+ text-align:center;
+ font-family: 'Merriweather', serif;
+}
+p{
+  font-size:20px;
+}
+#nav_bar{
+  display:flex;
+  text-align: center;
+    background: linear-gradient(#36d1dc,#5b86e5
+);
+}
+#nav_bar li{
+  display:flex;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 50px;
+}
+ul{
+  text-decoration: none;
+  display:flex;
+  background: linear-gradient(#36d1dc,#5b86e5
+);
+}
+body{
+  background: linear-gradient(#f2fcfe
+,#1c92d2)
+}
+ol{
+  margin:60px;
+  text-decoration: none;
+}
+
+#summary p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#reminders p{
+  padding-left:5%;
+  padding-right:5%;
+}
+li{
+  display:flex;
+  margin:60px; 
+}
